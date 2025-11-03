@@ -20,3 +20,30 @@ Implemented responsive typography using clamp() to ensure headings and body text
 Improved layout scaling across desktop, tablet, and mobile views.
 Ensured images resize proportionally and maintain proper spacing on smaller screens.
 Verified that navigation becomes a responsive stacked layout on smaller displays.
+
+JavaScript Enhancements
+Added sticky navigation bar functionality so the menu becomes visible, glowing, and fixed at the top while scrolling.
+Added JavaScript form validation and confirmation messages for both the Enquiry and Contact forms.
+Implemented feedback messages when forms are submitted so users clearly know their action succeeded.
+Included fail-safe logic in JavaScript using optional chaining to prevent script errors if a form does not exist on a specific page (?.addEventListener()).
+Prepared structure for future enhancements like image modals and dynamic loading.
+
+Forms & User Experience
+Created a fully functioning Enquiry form with fields for name, email, inquiry type, and message.
+Updated the Contact page form to collect name, email, and a detailed message.
+Added client-side validation for required fields.
+Contact form now triggers the user's default email client with the message content using a mailto: link.
+Displayed form success messages to improve user feedback and UX.
+
+
+
+
+
+
+
+
+
+
+
+
+
