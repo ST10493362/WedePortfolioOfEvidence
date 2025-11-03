@@ -35,11 +35,24 @@ Added client-side validation for required fields.
 Contact form now triggers the user's default email client with the message content using a mailto: link.
 Displayed form success messages to improve user feedback and UX.
 
+SEO Improvements
+Added meta descriptions to each page to improve search engine visibility.
+Applied meaningful page titles and consistent SEO-friendly naming conventions.
+Added descriptive alt text to all images to support accessibility and search indexing.
+Created a robots.txt file to guide search engine crawlers.
+Built a sitemap.xml file so search engines can easily discover and index all pages.
+Ensured internal linking across pages to improve crawl efficiency and navigation flow.
+Maintained semantic HTML structure using section, nav, footer, figure, and figcaption.
 
+File & Folder Structure
+Ensured script.js, style.css, robots.txt, and sitemap.xml are correctly placed in the main project directory.
+Confirmed ALL image assets are placed inside the _images directory.
+Linked all files properly without changing original folder structure.
 
-
-
-
+Accessibility & Semantic Improvements
+Added hidden but accessible text (.visually-hidden) for screen readers where visual text was removed.
+Used semantic tags (main, nav, footer, details, summary, figure, figcaption) to improve structure.
+Ensured contrast ratios were appropriate and readable, particularly in the header and navigation.
 
 
 
